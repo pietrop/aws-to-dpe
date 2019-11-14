@@ -1,7 +1,7 @@
 {
   "name": "aws-to-dpe",
   "version": "1.0.0",
-  "description": "",
+  "description": "AWS to DPE (digital paper Edit)adapter extracted from/and recombined @bbc/react-transcript-editor",
   "main": "index.js",
   "scripts": {
     "start": "node ./example-usage.js",
@@ -10,7 +10,7 @@
     "test:ci": "jest --ci"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "jest": {},
   "devDependencies": {
     "jest": "^24.9.0"
