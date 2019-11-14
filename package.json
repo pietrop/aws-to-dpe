@@ -1,6 +1,6 @@
 {
   "name": "aws-to-dpe",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "AWS STT to DPE (digital paper Edit)adapter extracted from/and recombined @bbc/react-transcript-editor",
   "main": "src/index.js",
   "scripts": {
