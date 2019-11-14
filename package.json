@@ -4,8 +4,7 @@
   "description": "AWS to DPE (digital paper Edit)adapter extracted from/and recombined @bbc/react-transcript-editor",
   "main": "src/index.js",
   "scripts": {
-    "start": "node ./example-usage.js",
-    "example": "node ./src/example-usage.js",
+    "start": "node ./src/example-usage.js",
     "test": "jest",
     "test:watch": "jest --watchAll",
     "test:ci": "jest --ci"
