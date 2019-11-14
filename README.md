@@ -3,11 +3,28 @@
 Abstracted from parts of [`@bbc/react-transcript-editor`](https://github.com/bbc/react-transcript-editor) this module provides a way to convert from AWS STT To [DPE format](https://github.com/bbc/digital-paper-edit).
 
 
-<!-- ## Setup -->
+## Setup
 <!-- _stack - optional_
 _How to build and run the code/app_ -->
 
-<!-- ## Usage -->
+Fork this repository + git clone + cd into folder + npm install
+
+## Usage
+on npm [aws-to-dpe](https://www.npmjs.com/package/aws-to-dpe)
+
+```
+npm install aws-to-dpe
+```
+
+```js
+const awsToDpe = require('aws-to-dpe');
+const awsTranscript = require('../sample/WSJ8623212922.mp3.json');
+
+const res = awsToDpe(awsTranscript);
+// do something with dpe json 
+```
+
+see [`src/example-usage.js`](./src/example-usage.js) for more.
 
 <!-- ## System Architecture -->
 <!-- _High level overview of system architecture_ -->
@@ -24,23 +41,31 @@ There's a [docs](./docs) folder in this repository.
 
 We are using [this template for ADR](https://gist.github.com/iaincollins/92923cc2c309c2751aea6f1b34b31d95) -->
 
-<!-- ## Development env -->
+
+## Development env
  <!-- _How to run the development environment_ -->
 
-<!-- - npm > `6.1.0`
+- npm > `6.1.0`
 - [Node 10 - dubnium](https://scotch.io/tutorials/whats-new-in-node-10-dubnium)
 
-Node version is set in node version manager [`.nvmrc`](https://github.com/creationix/nvm#nvmrc) -->
+Node version is set in node version manager [`.nvmrc`](https://github.com/creationix/nvm#nvmrc)
 
 <!-- _Coding style convention ref optional, eg which linter to use_ -->
 
 <!-- _Linting, github pre-push hook - optional_ -->
 
-<!-- ## Build -->
+## Build
 <!-- _How to run build_ -->
 
-<!-- ## Tests -->
+_NA_
+
+## Tests
 <!-- _How to carry out tests_ -->
 
-<!-- ## Deployment -->
+## Deployment
 <!-- _How to deploy the code/app into test/staging/production_ -->
+
+To publish to npm
+```
+npm run publish:public
+```
