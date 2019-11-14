@@ -2,14 +2,15 @@
   "name": "aws-to-dpe",
   "version": "1.0.0",
   "description": "AWS to DPE (digital paper Edit)adapter extracted from/and recombined @bbc/react-transcript-editor",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "start": "node ./example-usage.js",
+    "example": "node ./src/example-usage.js",
     "test": "jest",
     "test:watch": "jest --watchAll",
     "test:ci": "jest --ci"
   },
-  "author": "",
+  "author": "Pietro Passarelli",
   "license": "MIT",
   "jest": {},
   "devDependencies": {
