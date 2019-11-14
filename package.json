@@ -1,16 +1,26 @@
 {
   "name": "aws-to-dpe",
   "version": "1.0.0",
-  "description": "AWS to DPE (digital paper Edit)adapter extracted from/and recombined @bbc/react-transcript-editor",
+  "description": "AWS STT to DPE (digital paper Edit)adapter extracted from/and recombined @bbc/react-transcript-editor",
   "main": "src/index.js",
   "scripts": {
     "start": "node ./src/example-usage.js",
     "test": "jest",
     "test:watch": "jest --watchAll",
-    "test:ci": "jest --ci"
+    "test:ci": "jest --ci",
+    "publish:public": "npm publish --access public",
+    "publish:dry:run": "npm publish --dry-run"
   },
   "author": "Pietro Passarelli",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pietrop/aws-to-dpe/issues"
+  },
+  "homepage": "https://github.com/pietrop/aws-to-dpe",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pietrop/aws-to-dpe.git"
+  },
   "jest": {},
   "devDependencies": {
     "jest": "^24.9.0"
